@@ -1,12 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    container: {
+    appBackground: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
         backgroundColor: '#f0f0f0',
         padding: 20,
+    },
+    container: {
+        marginTop: 100,
+        alignItems: 'center',
     },
     label: {
         fontSize: 18,
@@ -31,12 +33,15 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 25,
         borderRadius: 10,
         alignItems: 'center',
-        marginBottom: 20,
     },
     botonTexto: {
         color: '#fff',
         fontSize: 18,
         fontWeight: 'bold',
+    },
+    listContainer: {
+        paddingTop: 20,
+        paddingBottom: 20,
     },
     tareaContainer: {
         flexDirection: 'row',
@@ -55,7 +60,7 @@ export const styles = StyleSheet.create({
     },
     tareaTexto: {
         fontSize: 16,
-        color: '#333',
+        color: '#000000',
         flex: 1,
     },
     eliminarButton: {
